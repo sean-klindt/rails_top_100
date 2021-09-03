@@ -39,6 +39,6 @@ def index
   end
   private
   def artist_params
-    params.require(:artist).permit(:name, :album, :everything)
+    params.require(:artist).permit(:name, :album,)
   end
 end
