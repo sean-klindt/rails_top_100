@@ -4,5 +4,5 @@ class Song < ApplicationRecord
   validates :name, :duration presence: true
 
   # can we validate more?
-  # validates :duration numericality: true
+  validates :duration, numericality: true
 end
